@@ -9,6 +9,7 @@ import Users from './users/users'
 // import { composeWithDevTools } from '@redux-devtools/extension';
 import { Provider } from 'react-redux'
 import {store} from './store/index'
+import './styles/index.css'
 import {
   BrowserRouter,
   Routes,

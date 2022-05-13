@@ -6,6 +6,9 @@ export function fetchCustomers() {
       return axios.get('https://reqres.in/api/users')
         .then(({ data }) => {
         dispatch(getApiJsonActions(data));
-      });
+      })
+      .catch(err => { 
+        console.log(err); 
+      })
     };
   }

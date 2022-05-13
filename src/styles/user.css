@@ -1,0 +1,44 @@
+.user-page{
+    display: grid;
+     background: linear-gradient(90deg,#ffffff , #aeeefa  100%, #91bee1 );
+     grid-template-rows: 50px calc(100% - 30px);
+     align-items: center;
+}
+.user-page__back{
+    padding-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.user{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50%;
+   
+}
+.user__container{
+display: grid;
+height: fit-content;
+
+}
+.user__container div{
+    text-align: center; 
+
+}
+.user__container-avatar img{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    overflow: hidden; 
+
+}
+.user__container-name,.user__container-email{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.user__container-email a{
+    font-weight:400;
+    color: black;
+}
